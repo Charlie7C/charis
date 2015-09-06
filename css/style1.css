@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Playball|Lobster);
+@import url("http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+@media only screen and (max-width: 500px) {
+    header .navbar-header.nav .navbar-brand #featured h3{
+        display: none;
+    }
+}
+.panel-image img.panel-image-preview {
+    width: 100%;
+	border-radius: 4px 4px 0px 0px;
+}
+
+.panel-heading ~ .panel-image img.panel-image-preview {
+	border-radius: 0px;
+}
+
+.panel-image ~ .panel-body, .panel-image.hide-panel-body ~ .panel-body {
+	overflow: hidden;
+}
+.panel-image ~ .panel-footer a {
+	padding: 0px 10px;
+	font-size: 1.3em;
+	color: rgb(100, 100, 100);
+}
+
+.panel-image.hide-panel-body ~ .panel-body {
+	height: 0px;
+	padding: 0px;
+}
+html,body{ margin:0; padding:0; height:100%; width:100%; }
+body{
+	font-family: 'Lobster', cursive;
+	font-weight:400;
+	font-size:2em;
+
+}
+body{
+    background: url("http://mymaplist.com/img/parallax/back.png");
+  background-color: #444;
+    background: url("http://mymaplist.com/img/parallax/pinlayer2.png"),url("http://mymaplist.com/img/parallax/pinlayer1.png"),url("http://mymaplist.com/img/parallax/back.png");    
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}
+p{
+font-family:Palatino Linotype;
+	font-weight:400;
+	font-size:1em;
+	position:relative;	
+}
+img {
+	max-width: 200px;
+}
+
+header .navbar-inverse{
+	background-color: transparent;
+	border:none;
+}
+header .navbar-inverse .navbar-nav a{
+	color:#35BECE;
+}
+
+
+.category{
+	margin: 50px,0;
+}
+.navbar {
+	border-radius: 0;
+	border:0;
+}
+
+header .navbar{
+padding:50px,0;
+}
+header .navbar-brand{
+	background: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: 15px,15px;
+	height: 110px;
+
+}
+header .navbar-brand h3{
+	padding-left: 105px;
+	padding-top: 5px;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+header .navbar-brand h3:hover{
+	color: #35BECE;
+}
+
+
+body{
+    background: url(../images/lake.jpg);
+  background-color: #444;
+    background: url(../images/lake.jpg),url(../images/lake.jpg);    
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}
+#editor {overflow:scroll; max-height:300px}

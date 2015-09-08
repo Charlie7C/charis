@@ -5,6 +5,20 @@
         display: none;
     }
 }
+
+/*.col-md-4{
+  border:1px solid green;
+}
+
+.row {
+  border:1px solid blue;
+}*/
+
+
+
+
+
+
 .panel-image img.panel-image-preview {
     width: 100%;
 	border-radius: 4px 4px 0px 0px;
@@ -437,7 +451,7 @@ a.big-background-btn {
 #page-header{
   text-shadow: -3px 0px 0px rgba(247, 255, 247, 1);
 }
-#posts > .row{
+#postsphotos{
   background: rgb(216, 255, 248);
 background: -moz-linear-gradient(82deg, rgba(216, 255, 248,0.2) 29%, rgba(255, 250, 244,0.2) 82%);
 background: -webkit-linear-gradient(82deg, rgba(216, 255, 248,0.2) 29%, rgba(255, 250, 244,0.2) 82%);

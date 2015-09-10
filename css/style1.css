@@ -104,3 +104,7 @@ body{
     padding-top:100px;
 }
 #editor {overflow:scroll; max-height:300px}
+.panel{
+	background-color:rgba(255,255,255,0.6);
+	border-radius: 20px;
+}

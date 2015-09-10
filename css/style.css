@@ -150,12 +150,11 @@ body{
 	min-height:100%;
 }
 #explore{
-background: url(../images/1.JPG) no-repeat center center;
+background: url(../images/1.JPG) no-repeat center ;
 min-height:100%;
 background-size:cover;
-height:100%;
-width:100%;
-overflow:hidden; /* or overflow:auto; if you want scrollbars */
+
+overflow:hidden ; /* or overflow:auto; if you want scrollbars */
 
 }
 #explore .content{

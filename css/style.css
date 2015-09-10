@@ -528,4 +528,6 @@ div[data-role="editor-toolbar"] {
 background-color: rgba(220,220,220,0.9);
 
 }
-
+.gallery{
+  background-color: rgba(255,255,255,0.4);
+}
